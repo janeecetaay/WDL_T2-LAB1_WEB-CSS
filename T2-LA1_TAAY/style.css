@@ -1,0 +1,41 @@
+.body {
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.container {
+    max-width: 500px; 
+    width: 100%; 
+    margin: 10px auto; 
+    padding: 10px; 
+    background-color: #d8db0e; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.button {
+    color: white; 
+    background-color: rgb(0, 0, 0); 
+    font-style: italic; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+}
+
+header h1 {
+    background-position-x: center;
+    color: navy; 
+    font-family: 'Georgia', serif;
+}
+
+footer p {
+    color: gray;
+    font-size: 14px;
+}
